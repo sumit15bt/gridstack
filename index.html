@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GRID JS</title>
+	<link rel="stylesheet" href="css/gridstack.css">
+	<script src="js/gridstack.js"></script>
+</head>
+<body>
+	<div class="grid-stack">
+	  <div class="grid-stack-item" style="background: red;">
+	    <div class="grid-stack-item-content">Item 1</div>
+	  </div>
+	  <div class="grid-stack-item" data-gs-width="2" data-gs-height="4" style="background: orange;">
+	    <div class="grid-stack-item-content">Item 2 wider</div>
+	  </div>
+	  <div class="grid-stack-item" data-gs-width="4" style="background: blue;">
+	    <div class="grid-stack-item-content">Item 3 more wider</div>
+	  </div>
+	</div>
+	<script>
+		GridStack.init();
+	</script>
+</body>
+</html>
